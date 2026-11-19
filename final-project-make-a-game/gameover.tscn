@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://chdl57nutyi7q"]
+
+[ext_resource type="Script" uid="uid://dlw2axd70iucc" path="res://gameover.gd" id="1_4nh4k"]
+
+[node name="Control" type="Control" unique_id=1893025262]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4nh4k")
+
+[node name="GameOverLabel" type="RichTextLabel" parent="." unique_id=1150928165]
+layout_mode = 0
+offset_left = 400.0
+offset_right = 700.0
+offset_bottom = 70.0
+theme_override_font_sizes/normal_font_size = 50
+text = "GAME OVER"
+
+[node name="RestartButton" type="Button" parent="." unique_id=600047614]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 450.0
+offset_right = 275.0
+offset_bottom = 536.0
+theme_override_font_sizes/font_size = 40
+text = "Restart"
+
+[node name="QuitButton" type="Button" parent="." unique_id=1769455766]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 450.0
+offset_right = 978.0
+offset_bottom = 535.0
+theme_override_font_sizes/font_size = 40
+text = "Quit"
